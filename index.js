@@ -7,7 +7,7 @@ function topSection() {
     <img class="icons" src="images/icon-facebook.svg" alt"">
     <img class="icons" src="images/icon-twitter.svg" alt"">
     <img class="icons" src="images/icon-pinterest.svg" alt"">
-    <img class="icons" src="images/icon-share.svg" alt"">
+    <img class="icons con" src="images/icon-share.svg" alt"">
     `
 
     iconBar += html
@@ -15,7 +15,7 @@ function topSection() {
     document.querySelector('.js-top-section')
       .innerHTML = iconBar;
 
-    document.querySelector('.share-button')
+    document.querySelector('.contain')
       .innerHTML = '';
 
       document.querySelector('.cancel')

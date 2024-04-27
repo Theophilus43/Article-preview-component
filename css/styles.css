@@ -79,12 +79,7 @@ span{
     border-radius: 16px;
 }
 
-p{
-    color: var(--Desaturated-Dark-Blue);
-    padding: 1em 0 2em 1em;
-    font-size: 14px;
-    line-height: 1.4em;
-}
+
 
 @media (min-width: 500px) {
     .flex{
@@ -109,15 +104,20 @@ p{
 
 body{
     background-color: var(--Light-Grayish-Blue);
+    display: block;
 }
 
 .container {
     margin: 1em;
     font-family: 'Manrope', sans-serif;
+    
 }
 
 .big-image {
+    display: block;
     width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .move {
@@ -130,31 +130,30 @@ body{
 }
 
 
-
-
-
 .michelle {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
 }
 
-.features{
+.features {
+    padding-left: 0.5em;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .info{
    display: flex;
    justify-content: space-between;
-   margin: 2em 1em 0 1em;
-   padding-bottom: 1.5em;
+   margin: 1em 1em 0 1em;
+   
 }
 
 .float {
     float: right;
-    margin-left: 1em
+    margin-left: 1em;
+    line-height: 1.3em;
 }
 
 h4{
@@ -164,8 +163,20 @@ h4{
 h3{
     color: var(--Very-Dark-Grayish-Blue);
     font-size: 16px;
-    font-weight: 700;
+    font-weight: bold;
     padding: 2em 0 0 1em;
+    width: 90%;
+    line-height: 1.5em;
+}
+
+p{
+    color: var(--Desaturated-Dark-Blue);
+    padding: 1em 0 1.5em 1em;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 1.4em;
+    width: 90%;
+    line-height: 1.5em;
 }
 
 span {
@@ -174,15 +185,20 @@ span {
     font-weight: normal;
 }
 
-.top-section{
-    background-color: red;
+.js-top-section{
+    background-color: var(--Very-Dark-Grayish-Blue);
     display: flex;
-    margin: 0;
-    padding: 0
 }
+
+
 
 .good {
     display: flex;
+}
+
+.contain{
+    width: 60px;
+    height: 60px;
 }
 
 .icons {
@@ -194,24 +210,16 @@ span {
 }
 
 .js-icon {
-    width:50px;
-    height: 50px;
-    margin: 1em;
+    padding-left: 3px
 }
 
-.return {
-    background-color: green;
-    border-radius: 100%;
-    margin: 1em 0;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 2em;
-}
 
-.class-button {
-    width: 35px;
-    height: 35px;
+.share-button {
+    width: 60%;
+    height: 60%;
+    margin: 0 Auto;
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
+    padding: 0.5em;
+    background-color: var(--Light-Grayish-Blue);
 ;}
